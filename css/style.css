@@ -47,13 +47,13 @@ body {
 }
 
 a {
-  color: #FF9000;
+  color:#1e90ff;
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s;
 }
 a:hover, a:active, a:focus {
-  color: #FF9000;
+  color: #1e90ff;
   outline: none;
   text-decoration: none;
 }
@@ -61,27 +61,40 @@ a:hover, a:active, a:focus {
 p {
   margin-bottom: 30px;
 }
-
+/*headings*/
+/*modified by david for headings*/
 h1, h2, h3, h4, h5, h6, figure {
-  color: #000;
-  font-family: "Space Mono", Arial, serif;
-  font-weight: 400;
-  margin: 0 0 20px 0;
-}
+   color: blue;
+  	font-family: "Space Mono", Arial, serif
+  	font-weight: 300;
+  	margin: 0 0 10px 0;
 
+}
+/*added by david for heading about me*/
+.h2style{
+    font-family: 'Poppins', sans-serif;
+	font-size: 30px;
+	font-weight: 600;
+	letter-spacing: 8.8px;
+	line-height: 1.2;
+    
+}
+#H2FONT{
+    color:#000;
+}
 ::-webkit-selection {
   color: #fff;
-  background: #FF9000;
+  background: #1e90ff;
 }
 
 ::-moz-selection {
   color: #fff;
-  background: #FF9000;
+  background: #1e90ff;
 }
 
 ::selection {
   color: #fff;
-  background: #FF9000;
+  background: #1e90ff;
 }
 
 #fh5co-header,
@@ -100,7 +113,7 @@ h1, h2, h3, h4, h5, h6, figure {
   bottom: 0;
   left: 0;
   right: 0;
-  background: rgba(255, 144, 0, 0.9);
+  background: #1e90ff;
 }
 #fh5co-header .display-t,
 .fh5co-cover .display-t {
@@ -222,10 +235,11 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 
 #fh5co-features {
-  background: #FF9000;
+  background: #1e90ff;
 }
+/*modified by David for my service*/
 #fh5co-features h2 {
-  color: #fff;
+  color: #000;
 }
 #fh5co-features .services-padding {
   padding: 7em 0;
@@ -257,19 +271,21 @@ h1, h2, h3, h4, h5, h6, figure {
   display: table-cell;
   vertical-align: middle;
   height: 100px;
-  color: #FF9000 !important;
+  color: #1e90ff !important;
 }
 #fh5co-features .feature-left .feature-copy {
   width: 100%;
 }
+/*modified by david for subheadings lebels under my servives*/
 #fh5co-features .feature-left h3 {
   font-size: 24px;
   font-weight: 400;
-  color: #fff;
+  color: #000;
 }
+/*modified by david for paragraph lebels under my servives*/
 #fh5co-features .feature-left p {
   font-size: 16px;
-  color: rgba(255, 255, 255, 0.7);
+  color: rgb(0,0,0);
 }
 #fh5co-features .feature-left p:last-child {
   margin-bottom: 0;
@@ -308,11 +324,18 @@ h1, h2, h3, h4, h5, h6, figure {
 
 .fh5co-bg-dark {
   background: #2F3C4F;
-  background: #FF9000;
+  background: #1e90ff;
 }
+/*
 .fh5co-bg-dark .fh5co-heading h2 {
-  color: #fff !important;
+  Font Family: 'Poppins', sans-serif;
+	Text Size: 30px;
+	Font Thickness: 600;
+	Letter Spacing: 8.8px;
+	Line Height: 1.2;
+
 }
+*/
 
 .info {
   margin: 0;
@@ -365,7 +388,7 @@ h1, h2, h3, h4, h5, h6, figure {
   display: inline-block;
   zoom: 1;
   *display: inline;
-  color: #FF9000;
+  color: #1e90ff;
   padding-left: 10px;
   padding-right: 10px;
 }
@@ -402,7 +425,7 @@ h1, h2, h3, h4, h5, h6, figure {
   font-size: 20px;
 }
 #fh5co-about .fh5co-social-icons li a:hover {
-  background: #FF9000;
+  background: #1e90ff;
 }
 
 .fh5co-heading {
@@ -532,7 +555,7 @@ h1, h2, h3, h4, h5, h6, figure {
   top: 40px;
   left: 50%;
   margin-left: -21px;
-  background-color: #FF9000;
+  background-color: #1e90ff;
   z-index: 100;
   display: table;
   -webkit-border-radius: 50%;
@@ -683,6 +706,18 @@ h1, h2, h3, h4, h5, h6, figure {
 .progress-bar.progress-bar-5 {
   background-color: #27ae60 !important;
 }
+/*progress bars added by david for html,wordpress,php,java*/
+.progress-bar.progress-bar-6 {
+  background-color: #000 !important;
+}
+
+.progress-bar.progress-bar-7 {
+  background-color: #F51720 !important;
+}
+.progress-bar.progress-bar-8 {
+  background-color: #F8D210 !important;
+}
+
 
 .chart {
   width: 160px;
@@ -801,12 +836,19 @@ h1, h2, h3, h4, h5, h6, figure {
   height: 54px;
   border: none !important;
   background: #fff;
-  color: #FF9000;
+  color: #1e90ff;
   font-size: 16px;
   text-transform: uppercase;
   font-weight: 400;
   padding-left: 50px;
   padding-right: 50px;
+}
+/*hover for hire me button added by david */
+#fh5co-started .btn:hover {
+  transition: 2s;
+  background: #18A558;
+  color: #F8D210;
+  
 }
 
 .fh5co-blog {
@@ -1110,19 +1152,21 @@ input[type="text"] {
   outline: none !important;
 }
 
+/*send nessege button modified*/ 
 .btn-primary {
-  background: #FF9000;
+  background: #ff9b1a;
   color: #fff;
-  border: 2px solid #FF9000;
+  border: 2px solid red;
 }
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
-  background: #ff9b1a !important;
-  border-color: #ff9b1a !important;
+    transition: 2s;
+  background: #81B622 !important;
+  border-color: #59981A !important;
 }
 .btn-primary.btn-outline {
   background: transparent;
   color: #FF9000;
-  border: 2px solid #FF9000;
+  border: 2px solid #1e90ff;
 }
 .btn-primary.btn-outline:hover, .btn-primary.btn-outline:focus, .btn-primary.btn-outline:active {
   background: #FF9000;
@@ -1255,7 +1299,7 @@ input[type="text"] {
 .form-control:active, .form-control:focus {
   outline: none;
   box-shadow: none;
-  border-color: #FF9000;
+  border-color: #1e90ff;
 }
 
 .row-pb-md {
