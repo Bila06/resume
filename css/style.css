@@ -106,6 +106,7 @@ h1, h2, h3, h4, h5, h6, figure {
   height: 600px;
   width: 100%;
 }
+/*hearder*/
 #fh5co-header .overlay,
 .fh5co-cover .overlay {
   position: absolute;
@@ -233,7 +234,7 @@ h1, h2, h3, h4, h5, h6, figure {
 .fh5co-cover .display-tc .fh5co-social-icons li a i {
   font-size: 30px;
 }
-
+/*my services section style*/
 #fh5co-features {
   background: #1e90ff;
 }
@@ -326,16 +327,7 @@ h1, h2, h3, h4, h5, h6, figure {
   background: #2F3C4F;
   background: #1e90ff;
 }
-/*
-.fh5co-bg-dark .fh5co-heading h2 {
-  Font Family: 'Poppins', sans-serif;
-	Text Size: 30px;
-	Font Thickness: 600;
-	Letter Spacing: 8.8px;
-	Line Height: 1.2;
 
-}
-*/
 
 .info {
   margin: 0;
@@ -395,6 +387,7 @@ h1, h2, h3, h4, h5, h6, figure {
 .fh5co-social-icons li a i {
   font-size: 20px;
 }
+/*about section*/
 
 #fh5co-about .fh5co-social-icons {
   margin: 0;
@@ -544,6 +537,8 @@ h1, h2, h3, h4, h5, h6, figure {
     top: 31px;
   }
 }
+
+/*my resume icon style*/
 .timeline > li > .timeline-badge {
   color: #fff;
   width: 44px;
@@ -555,7 +550,7 @@ h1, h2, h3, h4, h5, h6, figure {
   top: 40px;
   left: 50%;
   margin-left: -21px;
-  background-color: #1e90ff;
+  background-color: #1e92ff;
   z-index: 100;
   display: table;
   -webkit-border-radius: 50%;
